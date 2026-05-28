@@ -1,61 +1,45 @@
 {
-  "name": "nexusflow-backend",
-  "version": "1.0.0",
-  "description": "Production-grade realtime logistics platform backend",
-  "keywords": [
-    "nodejs",
-    "typescript",
-    "express",
-    "logistics",
-    "realtime",
-    "backend",
-    "microservices",
-    "postgresql",
-    "mongodb",
-    "redis"
-  ],
-  "license": "ISC",
-  "author": "Rajdip Chatterjee <rajdipchatterjee3000@gmail.com>",
-  "type": "module",
-  "main": "dist/server.js",
-  "scripts": {
-    "dev": "tsx watch src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js",
-    "format": "prettier --write .",
-    "format:check": "prettier . --check",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "test": "vitest run",
-    "test:watch": "vitest watch"
-  },
-  "dependencies": {
-    "bcrypt": "^6.0.0",
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "helmet": "^8.2.0",
-    "jsonwebtoken": "^9.0.3",
-    "morgan": "^1.10.1"
-  },
-  "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/bcrypt": "^6.0.0",
-    "@types/cookie-parser": "^1.4.10",
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
-    "@types/jsonwebtoken": "^9.0.10",
-    "@types/morgan": "^1.9.10",
-    "@types/node": "^25.9.1",
-    "eslint": "^10.4.0",
-    "eslint-config-prettier": "^10.1.8",
-    "globals": "^17.6.0",
-    "jiti": "^2.7.0",
-    "prettier": "3.8.3",
-    "tsx": "^4.22.3",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.4",
-    "vitest": "^4.1.7"
-  }
+    "name": "nexusflow-backend",
+    "version": "1.0.0",
+    "description": "Production-grade realtime logisstics platform backend",
+    "keywords": [
+        "nodejs",
+        "typescript",
+        "express",
+        "backend",
+        "logistics",
+        "realtime",
+        "microservices"
+    ],
+    "homepage": "https://github.com/RajdipChatterjee/nexusflow-backend#readme",
+    "bugs": {
+        "url": "https://github.com/RajdipChatterjee/nexusflow-backend/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RajdipChatterjee/nexusflow-backend.git"
+    },
+    "license": "MIT",
+    "author": "Rajdip Chatterjee <rajdipchatterjee3000@gmail.com>",
+    "type": "module",
+    "main": "dist/server.js",
+    "scripts": {
+        "dev": "tsx watch src/server.ts",
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "eslint": "^10.4.0",
+        "eslint-config-prettier": "^10.1.8",
+        "globals": "^17.6.0",
+        "prettier": "^3.8.3",
+        "tsx": "^4.22.3",
+        "typescript": "^6.0.3",
+        "typescript-eslint": "^8.60.0"
+    }
 }
