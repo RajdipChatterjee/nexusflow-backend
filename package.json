@@ -1,7 +1,7 @@
 {
     "name": "nexusflow-backend",
     "version": "1.0.0",
-    "description": "Production-grade realtime logisstics platform backend",
+    "description": "Production-grade realtime logistics platform backend",
     "keywords": [
         "nodejs",
         "typescript",
@@ -22,7 +22,7 @@
     "license": "MIT",
     "author": "Rajdip Chatterjee <rajdipchatterjee3000@gmail.com>",
     "type": "module",
-    "main": "dist/server.js",
+    "main": "",
     "scripts": {
         "dev": "tsx watch src/server.ts",
         "build": "tsc",
@@ -41,6 +41,14 @@
         "prettier": "^3.8.3",
         "tsx": "^4.22.3",
         "typescript": "^6.0.3",
-        "typescript-eslint": "^8.60.0"
+        "typescript-eslint": "^8.60.0",
+        "vitest": "^4.1.7"
+    },
+    "dependencies": {
+        "cors": "^2.8.6",
+        "dotenv": "^17.4.2",
+        "express": "^5.2.1",
+        "helmet": "^8.2.0",
+        "morgan": "^1.10.1"
     }
 }
